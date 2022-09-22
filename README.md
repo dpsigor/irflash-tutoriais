@@ -1,3 +1,3 @@
-# Tutorias do aplicativo IR Flash
+# Tutoriais do aplicativo IR Flash
 
-[Link para o aplicatico](https://app.irflash.com.br)
+[Link para o aplicativo](https://app.irflash.com.br)
