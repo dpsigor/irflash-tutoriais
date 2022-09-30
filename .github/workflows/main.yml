@@ -5,7 +5,6 @@ on:
     branches:
       - 'main'
 
-            # docker compose up -d
 jobs:
   deploy:
     runs-on: ubuntu-latest
@@ -18,11 +17,10 @@ jobs:
           key: ${{ secrets.AZ_KEY }}
           script: |
             cd /home/dpsigor/tutoriais
-            pwd
             curl -L https://github.com/dpsigor/irflash-tutoriais/archive/main.zip --output main.zip
             unzip main.zip
             mv irflash-tutoriais-main/tutoriais/* .
             rm -r irflash-tutoriais-main
             rm main.zip
             cd ..
-            pwd
+            sudo docker compose up -d
