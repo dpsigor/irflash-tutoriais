@@ -2,12 +2,18 @@
 title alou
 ---
 
-# Realizando lançamentos no aplicativo
+# Manual
 
-## Eventos de Custódia
+## Realizando lançamentos no aplicativo
+
+### Configuração inicial
+
+### Importações
+
+### Eventos de Custódia
   
-- [Lançamento Avulso de Movimentação de Custódia](./lancamento_avulso.md)
-
+- [Configurando a custódia inicial](https://youtu.be/Gfl1tbDw1RM)
+- [Lançamento avulso de movimentação de custódia](./lancamento_avulso.md)
+- [Lançamento de participação em IPO](./lancamento_ipo.md)
 - [Lançamento de bonificação de ações](./bonificacao.md)
-
-- [Lançamento Manual de Eventos de Subscrição](./eventos_de_subscricao.md)
+- [Lançamento manual de eventos de subscrição](./eventos_de_subscricao.md)
