@@ -1,0 +1,28 @@
+name: ci
+
+on:
+  push:
+    branches:
+      - 'main'
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Pull and up
+        uses: appleboy/ssh-action@master
+        with:
+          host: ${{ secrets.AZ_HOST }}
+          username: ${{ secrets.AZ_USERNAME }}
+          key: ${{ secrets.AZ_KEY }}
+          script: |
+            cd /home/dpsigor/tutoriais
+            curl -L https://github.com/dpsigor/irflash-tutoriais/archive/main.zip --output main.zip
+            unzip main.zip
+            mv irflash-tutoriais-main/tutoriais/* .
+            rm -r irflash-tutoriais-main
+            rm main.zip
+            cd ..
+            docker compose up -d
+
+

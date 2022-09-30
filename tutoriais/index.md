@@ -1,1 +1,1 @@
-[Bonificação](./tutoriais/bonificacao.md)
+[Bonificação](./bonificacao.md)
