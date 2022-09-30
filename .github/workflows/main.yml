@@ -25,4 +25,5 @@ jobs:
           username: ${{ secrets.AZ_USERNAME }}
           key: ${{ secrets.AZ_KEY }}
           script: |
+            sudo docker compose stop irgo
             sudo docker compose up -d
