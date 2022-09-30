@@ -8,7 +8,11 @@ title alou
 
 ### Configuração inicial
 
+- [Fazendo a configuração inicial](https://youtu.be/aNkdycgdnoM)
+
 ### Importações
+
+- [Carregando sua notas de corretagem](https://youtu.be/wnik4fXnZ9s)
 
 ### Eventos de Custódia
   
