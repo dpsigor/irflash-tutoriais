@@ -4,7 +4,7 @@ title alou
 
 # Manual
 
-## Realizando lançamentos no aplicativo
+## Lançamentos
 
 ### Configuração inicial
 
