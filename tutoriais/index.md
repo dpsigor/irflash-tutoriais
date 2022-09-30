@@ -20,11 +20,11 @@
 - [Lançamento de bonificação de ações](./bonificacao.md)
 - [Lançamento manual de eventos de subscrição](./eventos_de_subscricao.md)
 
-### Consultas
+## Consultas
 
 - Como saber a custódia de ativos em qualquer dia [(Ver no YouTube)](https://youtu.be/JsPkmv4EUiw)
 - Como visualizar as operações que foram finalizadas [(Ver no YouTube)](https://youtu.be/zzoNSfrcEw4)
 
-### Imposto
+## Imposto
 
 - Como emitir o DARF de suas operações [(Ver no YouTube)](https://youtu.be/4Ouj2HkS2ls)
