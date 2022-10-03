@@ -1,8 +1,100 @@
+:root {
+  --orange: #ff9900;
+  --dark-blue: #0f1545;
+  --nav-height: 4.5rem;
+}
+
 html {
   font-family: "Montserrat", sans-serif;
+}
+
+html,
+body {
+  margin: 0px;
+  padding: 0px;
+}
+
+nav {
+  -webkit-text-size-adjust: 100%;
+  tab-size: 4;
+  --orange: #ff9900;
+  --dark-blue: #0f1545;
+  font-family: inherit;
+  line-height: inherit;
+  --tw-text-opacity: 1;
+  color: rgba(255, 255, 255, 1);
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
+  border-width: 0;
+  border-style: solid;
+  border-color: #e4e4e7;
+  height: var(--nav-height);
+  background-color: var(--dark-blue);
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  position: fixed;
+  top: 0px;
+  width: 100%;
+  z-index: 50;
+}
+
+nav > div {
+  -webkit-text-size-adjust: 100%;
+  tab-size: 4;
+  --orange: #ff9900;
+  --dark-blue: #0f1545;
+  font-family: inherit;
+  line-height: inherit;
+  --tw-text-opacity: 1;
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
+  border-width: 0;
+  border-style: solid;
+  border-color: #e4e4e7;
+  width: 100%;
+  max-width: 1536px;
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 0.5rem;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.content {
+  margin-top: calc(var(--nav-height) + 1rem);
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 2rem;
+  max-width: 90%;
 }
 
 img {
   display: block;
   margin: 2rem auto;
+}
+
+.irParaAppBtn {
+  -webkit-text-size-adjust: 100%;
+  tab-size: 4;
+  font-family: inherit;
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
+  text-decoration: inherit;
+  font-size: 0.75rem;
+  line-height: 1rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  padding: 0.5rem 1rem;
+  border-radius: 0.25rem;
+  outline: 2px solid transparent;
+  outline-offset: 2px;
+  margin-left: 0.75rem;
+  border: 1px solid var(--orange);
+  color: var(--orange);
 }
