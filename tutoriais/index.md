@@ -6,7 +6,7 @@
 
 ### Configuração inicial
 
-- Fazendo a configuração inicial [(Ver no YouTube)](https://youtu.be/aNkdycgdnoM)
+
 
 ### Importações
 
@@ -14,7 +14,6 @@
 
 ### Eventos de Custódia
   
-- Configurando a custódia inicial [(Ver no YouTube)](https://youtu.be/Gfl1tbDw1RM)
 - [Lançamento avulso de movimentação de custódia](./lancamento_avulso.md)
 - [Lançamento de participação em IPO](./lancamento_ipo.md)
 - [Lançamento de bonificação de ações](./bonificacao.md)
@@ -28,3 +27,9 @@
 ## Imposto
 
 - Como emitir o DARF de suas operações [(Ver no YouTube)](https://youtu.be/4Ouj2HkS2ls)
+
+## Configurações
+
+- Fazendo a configuração inicial [(Ver no YouTube)](https://youtu.be/aNkdycgdnoM)
+- Configurando a custódia inicial [(Ver no YouTube)](https://youtu.be/Gfl1tbDw1RM)
+- Integrando com a B3 [(Ver no YouTube)](https://youtu.be/zQZJQlaceew)
